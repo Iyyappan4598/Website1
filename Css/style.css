@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 40px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.img {
+  background-image: url(../Asset/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.Main-card {
+  padding: 60px;
+}
+
+.card {
+  border: 1px solid grey;
+}
+
+.image-1 {
+  height: 100%;
+}
+
+.logo-1 {
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
